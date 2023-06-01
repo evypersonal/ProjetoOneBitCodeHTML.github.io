@@ -3,7 +3,7 @@ Site final em puro HTML
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SpaceX</title>
+    
   </head>
   <body>
     <nav>
