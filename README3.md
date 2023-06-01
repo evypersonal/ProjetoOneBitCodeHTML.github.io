@@ -1,1 +1,71 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a
+          href="file:///C:/Users/evell/OneDrive/Documentos/GitHub/Projeto_Calculadora/exercicios%20onebit/page1.html"
+        >
+          <img
+            src="https://cdn.areademembros.com/files/instancia_1851/editor/XGV6ruZ9zEINrDQSTFdF1hINl7DKitsftuoU7Hgq.png"
+          />
+        </a>
+        <a
+          href="file:///C:/Users/evell/OneDrive/Documentos/GitHub/Projeto_Calculadora/exercicios%20onebit/page2.html"
+          >|The SpaceShips</a
+        >
+        <a
+          href="file:///C:/Users/evell/OneDrive/Documentos/GitHub/Projeto_Calculadora/exercicios%20onebit/page3.html"
+          >|Hire Us</a
+        >
+      </div>
+    </nav>
+    <hr />
+    <section>
+      <div>
+        <h1>Hire Us Now</h1>
+        <p>
+          Leave a message to request one of our services and we will get back to
+          you as soon as possible.
+        </p>
+      </div>
+      <br />
+      <div>
+        <form>
+          <div>
+            <label for="name" id="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            <label for="email" id="email">- Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <br />
+          <div>
+            <label for="spaceship">Spaceship:</label>
+            <select name="spaceship" id="spaceship">
+              <option value="falcon9">Falcon 9</option>
+              <option value="falcon heavy">Falcon Heavy</option>
+            </select>
+            <label for="service">|Type of Service:</label>
+            <input type="search" id="service" name="service" list="services" />
+            <datalist id="services">
+              <option value="Nam quis nulla.Integer malesuada"></option>
+              <option value="In in enim a arcu imperdiet malesuada"></option>
+              <option value="Sed vel lectus. Donec odio urna"></option>
+              <option
+                value="Aenean id metus id velit ullamcorper pulvinar"
+              ></option>
+            </datalist>
+          </div>
+          <br />
+          <br />
+          <div>
+            <input type="submit" id="send" name="send" value="Send Message" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
